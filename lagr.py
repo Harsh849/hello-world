@@ -33,6 +33,7 @@ for i in range(n):
             p = p * (xp - x[j])/(x[i] - x[j])
     
     yp = yp + p * y[i]    
-
-# Displaying outputprint('Interpolated value at %.3f is %.3f.' % (xp, yp))
+#compare 2**x with the output. 
+    
 print(yp)
+print(2**yp)
