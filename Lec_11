@@ -16,5 +16,14 @@ plt.plot(x_new, y_new, 'b')
 plt.title('Cubic Spline Interpolation')
 plt.xlabel('x')
 plt.ylabel('y')
+
+
+
+x_s = range(-5,5)
+y_s = [2**x for x in x_s]
+
+plt.plot(x_s, y_s)
+plt.show()
+
 plt.show()
 
